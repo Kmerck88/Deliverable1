@@ -8,7 +8,7 @@ namespace Deliverable1
 				
         {
 		
-       string yn = "y";
+       string Y = "y";
 do
 {
     Console.Write("How many people are we making PB&J sandwiches for? ");
@@ -37,7 +37,7 @@ do
     Console.Write("Would you like to restart? Enter yes or y to continue, or any other key to exit: ");
     yn = Console.ReadLine();
 }
-while (yn == "y" || yn == "yes");
+while (Y == "y" || Y == "yes");
 Console.WriteLine("Goodbye!");
         }
     }
